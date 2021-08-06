@@ -1,0 +1,35 @@
+{
+  "name": "bug-free-octo-tribble",
+  "version": "1.0.0",
+  "description": "URL Shortener to be used by Code Devil's at Arizona State University",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-sslify": "^1.2.0",
+    "firebase": "^8.9.0",
+    "firebase-admin": "^9.11.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.12"
+  },
+  "scripts": {
+    "test": "test",
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reharri7/bug-free-octo-tribble.git"
+  },
+  "author": "Rhett Harrison",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reharri7/bug-free-octo-tribble/issues"
+  },
+  "homepage": "https://github.com/reharri7/bug-free-octo-tribble#readme"
+}
