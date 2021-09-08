@@ -1,0 +1,26 @@
+html {
+    font-size: 1rem; }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    color: #41494f;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important; }
+  
+  a {
+    -webkit-transition: all .3s ease-in;
+    transition: all .3s ease-in; }
+    a, a:focus, a:active, a:hover {
+      outline: 0 !important;
+      text-decoration: none; }
+  
+  hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #edf4f8;
+    margin: 1em 0;
+    padding: 0; }

@@ -22,7 +22,7 @@ const urlCollection = 'urls';
 
 // Express
 const app = express();
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 3000;
 app.set('view engine', 'ejs');
 app.use(express.static(__dirname + '/public'));
 
@@ -35,7 +35,6 @@ app.get('/', function(req, res) {
     res.render('index');
 });
 
-// POST request for creating urls?
 
 app.get('/:code', async (req, res) => {
     const code = req.params.code;
