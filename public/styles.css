@@ -1,5 +1,6 @@
 html {
-    font-size: 1rem; }
+    font-size: 2rem;
+  }
   
 body {
   font-family: "Poppins", sans-serif;
@@ -13,18 +14,8 @@ body {
 
 h1 {
   text-align: center;
-  width: 50%;
+  width: 75%;
   margin: 0 auto;
-}
-
-a {
-  -webkit-transition: all .3s ease-in;
-  transition: all .3s ease-in; 
-}
-
-a, a:focus, a:active, a:hover {
-  outline: 0 !important;
-  text-decoration: none; 
 }
 
 .container {
@@ -33,16 +24,22 @@ a, a:focus, a:active, a:hover {
 }
 
 .container button {
-  width: 50%;
-  margin: 0 auto;
+  width: 30%;
+  margin: 5px auto;
+  padding: 5px;
+  background-color: #8a2e4b;
+  border-radius: 15px;
+
 }
 
-  
-
-hr {
+.container button a {
+  color: #e1a635;
+  text-decoration: none;
   display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #edf4f8;
-  margin: 1em 0;
-  padding: 0; }
+}
+
+.container button:hover {
+  background-color: #9f2e4b;
+  transform: scale(1.025);
+  transition: transform 2s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+}
