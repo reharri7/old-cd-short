@@ -33,6 +33,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // Routes
 app.get('/', function(req, res) {
+    res.sendFile(path.join(__dirname, './public/assets/facebook.svg'));
     res.render('index');
 });
 
