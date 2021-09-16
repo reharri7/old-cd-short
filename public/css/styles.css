@@ -17,7 +17,7 @@ body {
 h1 {
   text-align: center;
   width: 75%;
-  margin: 25px auto;
+  margin: 3rem auto 1rem;
 }
 
 @media(min-width: 768px) {
@@ -29,6 +29,7 @@ h1 {
 .container {
   display: flex;
   flex-direction: column;
+  margin-bottom: 1rem;
 }
 
 .container button {
@@ -54,5 +55,5 @@ h1 {
 .container button:hover {
   background-color: #9f2e4b;
   transform: scale(1.025);
-  transition: transform 1s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+  transition: transform 0.5s cubic-bezier(0.25, 0.45, 0.45, 0.95);
 }
